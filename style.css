@@ -1,6 +1,6 @@
 button{
     width:5%;
-    color:aqua;
+    color:black;
     background-color: aqua;
     border-radius: 10px;
     padding:5px;
@@ -23,7 +23,7 @@ a{
     font-family: 'Poppins', sans-serif; 
     box-sizing: border-box;
     text-align: center;
-    color:black;
+    color:aqua;
     background-repeat:no-repeat;
     background-size: cover;
     
