@@ -1,0 +1,48 @@
+img{
+    size: 100px;
+    width: 50px;
+}
+
+*{
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding:0;
+    text-align:center;
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    margin-top:100px;
+    color:aqua;
+}
+.input-box{
+    margin:5px auto;
+    background: #fff;
+    width:90%;
+    max-width: 210px;
+    border-radius: 10px;
+    padding:10px 20px;
+    margin:30px auto;
+    display: flex;
+    align-items: center;
+}
+
+.input-box img{
+    width:20px;
+    cursor: pointer;
+}
+
+input-box input{
+    width: 90%;
+    border:0;
+    outline: 0;
+    padding: 10px 0;
+    font-size: 20%;
+    color:#555;
+}
+
+a{
+    color: red;
+}

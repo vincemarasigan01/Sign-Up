@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title> Log In or Sign up</title>
+    </head>
+
+    <body background="https://www.bhmpics.com/downloads/pastel-purple-background/15.pastel-purple-background-fbdyl.png">
+        <h1>SIGN UP</h1>
+   
+    <body>
+
+        <label>Please fill in this form to create an account</label>
+        <br>
+        <label for="name">Email Address</label>
+        <div class="input-box">
+            <input type="text" placeholder="Enter Email Address">
+
+
+        </div>
+        <br>
+        <label for="name">Create Password</label>
+        <div class="input-box">
+            <input type="Password" placeholder="Enter Password" id="bullet">
+            <img src="eye-close.png" id="baril">
+            <script>
+                let baril= document.getElementById("baril");
+                let bullet = document.getElementById("bullet");
+
+                baril.onclick = function(){
+
+                   if(bullet.type == "password"){
+                       bullet.type = " text";
+                       baril.src="eye-open.png";
+                   }else{
+                       bullet.type="password";
+                       baril.src=" eye-close.png"
+                   }
+                }
+
+           </script>
+
+
+        </div>
+
+        <br>
+        <label for="name">Confirm Password</label>
+        <div class="input-box">
+            <input type="Password" placeholder="Confirm Password" id="burat">
+            <img src="eye-close.png" id="kipay">
+
+            <script>
+                 let kipay = document.getElementById("kipay");
+                 let burat = document.getElementById("burat");
+
+                 kipay.onclick = function(){
+
+                    if(burat.type == "password"){
+                        burat.type= " text";
+                        kipay.src="eye-open.png";
+                    }else{
+                        burat.type="password";
+                        kipay.src=" eye-close.png"
+                    }
+                 }
+
+            </script>
+
+
+        </div>
+
+                 <input type="checkbox" id="remember me" values="remember me" name="title">
+           <label for="remember me"> Remember Me</label>
+            <p>By Creating an account you agree to our Terms & Privacy</p>
+
+            <p> Already have an account? <a href="login.html">Click to log In</a></p>
+            <br>
+            <a href="https://www.facebook.com/sjudhrk?mibextid=ZbWKwL"><img src="facebook (1).png" ></a>
+            <a href="https://www.instagram.com/vince.o_c/"><img src="social.png" ></a>
+
+            
+        
+
+        
+    </body>
+</html>
